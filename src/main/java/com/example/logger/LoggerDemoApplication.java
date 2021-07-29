@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
 
 @SpringBootApplication
 public class LoggerDemoApplication {
-
+//applying loggers to my aplication
 	private static Logger LOGGER = LoggerFactory.getLogger(LoggerDemoApplication.class);
 	public static void main(String[] args) throws Exception {
 		SpringApplication.run(LoggerDemoApplication.class, args);
